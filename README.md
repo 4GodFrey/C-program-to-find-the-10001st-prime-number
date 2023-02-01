@@ -1,1 +1,4 @@
 # C-program-to-find-the-10001st-prime-number
+# The programs are written in C to find the 10001st prime number.
+# The first program defines a function is_prime that takes an integer n as an argument and returns 1 if it's a prime number, and 0 otherwise. The main function then uses a loop to count the prime numbers and keep track of the current number i. Once the count of prime numbers reaches 10001, it prints the result and returns 0.
+# The second program (optimized) makes a few changes to the original code to improve efficiency. Firstly, it changes the starting value of count to 1 to account for the first prime number, 2. Secondly, it changes the starting value of i to 3 and increments it by 2 in each iteration of the loop, as all even numbers (except 2) are not prime. Finally, it adds a check in the is_prime function to quickly return 0 if the number is even and greater than 2, as all even numbers (except 2) are not prime.
